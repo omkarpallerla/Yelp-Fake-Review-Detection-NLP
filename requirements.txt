@@ -1,11 +1,11 @@
-pandas>=1.5.0
-numpy>=1.23.0
-matplotlib>=3.6.0
-seaborn>=0.12.0
-scikit-learn>=1.1.0
-xgboost>=1.7.0
-scipy>=1.9.0
+pandas>=2.0
+numpy>=1.23
+scikit-learn>=1.3
+xgboost>=1.7
 vaderSentiment>=3.3.2
-pyspark>=3.3.0
-jupyter>=1.0.0
-ipykernel>=6.0.0
+textblob>=0.17
+matplotlib>=3.6
+# only needed to run the generated streaming job (pipeline/streaming_pipeline.py)
+pyspark>=3.3
+jupyter>=1.0
+ipykernel>=6.0

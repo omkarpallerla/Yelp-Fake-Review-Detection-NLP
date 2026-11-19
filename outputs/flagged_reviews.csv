@@ -1,0 +1,41 @@
+review_id,text,label,date,business_id,stars,hour,daily_reviews,fraud_probability,flagged,anomaly_score
+1974,The best! Amazing! Love it!,1,2023-06-14 12:00:00,28,5,12,1,0.9993062,1,-1
+1997,Horrible! Stay away! Complete disaster!,1,2023-06-16 10:00:00,34,1,10,1,0.9993062,1,-1
+1926,Horrible! Stay away! Complete disaster!,1,2023-06-10 12:00:00,25,5,12,1,0.9993062,1,-1
+1895,The best! Amazing! Love it!,1,2023-06-07 22:00:00,20,1,22,1,0.9993062,1,-1
+1832,Perfect! Five stars! Outstanding service!,1,2023-06-02 16:00:00,4,1,16,2,0.9993062,1,-1
+1874,Perfect! Five stars! Outstanding service!,1,2023-06-06 04:00:00,14,5,4,1,0.9993062,1,-1
+1824,The best! Amazing! Love it!,1,2023-06-02 00:00:00,27,5,0,1,0.9993062,1,-1
+1837,Absolutely terrible. Never going back. Worst experience.,1,2023-06-03 02:00:00,38,1,2,1,0.9993062,1,-1
+1842,Perfect! Five stars! Outstanding service!,1,2023-06-03 12:00:00,34,1,12,1,0.9993062,1,-1
+1806,Perfect! Five stars! Outstanding service!,1,2023-05-31 12:00:00,32,5,12,1,0.9993062,1,-1
+1847,Amazing! Best ever! Highly recommend to everyone!,1,2023-06-03 22:00:00,48,5,22,1,0.9993062,1,-1
+1958,Absolutely terrible. Never going back. Worst experience.,1,2023-06-13 04:00:00,22,1,4,1,0.9993062,1,-1
+1872,Perfect! Five stars! Outstanding service!,1,2023-06-06 00:00:00,9,1,0,1,0.9993062,1,-1
+1987,Horrible! Stay away! Complete disaster!,1,2023-06-15 14:00:00,16,5,14,2,0.9993062,1,-1
+1816,Absolutely terrible. Never going back. Worst experience.,1,2023-06-01 08:00:00,30,5,8,1,0.9993062,1,-1
+1826,Amazing! Best ever! Highly recommend to everyone!,1,2023-06-02 04:00:00,4,5,4,2,0.9993062,1,-1
+1890,Absolutely terrible. Never going back. Worst experience.,1,2023-06-07 12:00:00,19,1,12,1,0.9993062,1,-1
+1928,The best! Amazing! Love it!,1,2023-06-10 16:00:00,39,1,16,1,0.9993062,1,-1
+1967,Perfect! Five stars! Outstanding service!,1,2023-06-13 22:00:00,42,1,22,3,0.9993062,1,-1
+1887,Absolutely terrible. Never going back. Worst experience.,1,2023-06-07 06:00:00,47,5,6,1,0.9993062,1,-1
+1884,Absolutely terrible. Never going back. Worst experience.,1,2023-06-07 00:00:00,35,5,0,1,0.9993062,1,-1
+1882,Amazing! Best ever! Highly recommend to everyone!,1,2023-06-06 20:00:00,42,5,20,1,0.9993062,1,-1
+1849,The best! Amazing! Love it!,1,2023-06-04 02:00:00,49,5,2,1,0.9993062,1,-1
+1809,Perfect! Five stars! Outstanding service!,1,2023-05-31 18:00:00,20,5,18,2,0.9993062,1,-1
+1801,Perfect! Five stars! Outstanding service!,1,2023-05-31 02:00:00,33,5,2,1,0.9993062,1,-1
+1910,The best! Amazing! Love it!,1,2023-06-09 04:00:00,19,5,4,1,0.9993062,1,-1
+1823,The best! Amazing! Love it!,1,2023-06-01 22:00:00,14,1,22,1,0.9993062,1,-1
+1859,Absolutely terrible. Never going back. Worst experience.,1,2023-06-04 22:00:00,47,1,22,1,0.9993062,1,-1
+1989,Horrible! Stay away! Complete disaster!,1,2023-06-15 18:00:00,15,5,18,2,0.9993062,1,-1
+1945,Horrible! Stay away! Complete disaster!,1,2023-06-12 02:00:00,23,5,2,2,0.9993062,1,-1
+1834,The best! Amazing! Love it!,1,2023-06-02 20:00:00,36,5,20,1,0.9993062,1,-1
+1804,Perfect! Five stars! Outstanding service!,1,2023-05-31 08:00:00,6,1,8,2,0.9993062,1,-1
+1861,Absolutely terrible. Never going back. Worst experience.,1,2023-06-05 02:00:00,49,5,2,1,0.9993062,1,-1
+1803,Horrible! Stay away! Complete disaster!,1,2023-05-31 06:00:00,24,1,6,1,0.9993062,1,-1
+1953,Absolutely terrible. Never going back. Worst experience.,1,2023-06-12 18:00:00,44,1,18,1,0.9993062,1,-1
+1877,Absolutely terrible. Never going back. Worst experience.,1,2023-06-06 10:00:00,5,1,10,1,0.9993062,1,-1
+1848,Horrible! Stay away! Complete disaster!,1,2023-06-04 00:00:00,9,5,0,1,0.9993062,1,-1
+1845,Perfect! Five stars! Outstanding service!,1,2023-06-03 18:00:00,14,1,18,1,0.9993062,1,-1
+1819,Amazing! Best ever! Highly recommend to everyone!,1,2023-06-01 14:00:00,11,1,14,2,0.9993062,1,-1
+1981,Horrible! Stay away! Complete disaster!,1,2023-06-15 02:00:00,10,5,2,3,0.9993062,1,-1

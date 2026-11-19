@@ -63,17 +63,38 @@ Yelp Reviews (Kafka/API)
 
 ---
 
+## 📂 Repository Structure
+
+```
+Yelp-Fake-Review-Detection-NLP/
+├── yelp_fake_review_detection.py
+├── notebooks/Yelp_NLP_Fake_Detection.ipynb
+├── pipeline/streaming_pipeline.py   # generated Databricks Structured Streaming job
+├── outputs/                         # flagged_reviews.csv, fake_review_analysis.png
+├── analytics_dashboard.html
+└── requirements.txt
+```
+
+---
+
 ## 🚀 How to Run
 
 ```bash
 git clone https://github.com/omkarpallerla/Yelp-Fake-Review-Detection-NLP.git
 cd Yelp-Fake-Review-Detection-NLP
 pip install -r requirements.txt
-jupyter notebook notebooks/01_EDA_and_Feature_Engineering.ipynb
+jupyter notebook yelp_fake_review_detection.py   # or: jupyter notebook notebooks/Yelp_NLP_Fake_Detection.ipynb
 ```
 
 ---
 
+
+## 🧪 Data & Reproducibility
+
+The script runs on **synthetic, template-generated reviews** (2,000 rows, 10% fake) rather than the Yelp dataset, so the classes are trivially separable and it scores F1 ≈ 1.0 - that is a pipeline demonstration, not a benchmark. The 99% F1 / 8.3% flag rate / latency figures above come from the original project run. `pipeline/streaming_pipeline.py` is a generated Databricks job template and has not been deployed from this repo.
+
+---
+
 <div align="center">
-  <sub>Built by <a href="https://github.com/omkarpallerla">Omkar Pallerla</a> · MS Business Analytics, ASU · BI Engineer · Databricks | Azure | GCP Certified</sub>
+  <sub><a href="https://github.com/omkarpallerla">Omkar Pallerla</a> · MS Business Analytics, ASU · Business Intelligence Analyst · Google Cloud | Azure | Databricks | Snowflake Certified</sub>
 </div>

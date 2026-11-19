@@ -5,6 +5,12 @@
 # =============================================================
 
 import pandas as pd
+import os
+os.makedirs("outputs", exist_ok=True)
+import os
+os.makedirs("outputs", exist_ok=True)
+import os
+os.makedirs("outputs", exist_ok=True)
 import numpy as np
 import matplotlib.pyplot as plt
 import seaborn as sns
@@ -14,15 +20,13 @@ from sklearn.model_selection import train_test_split
 from sklearn.metrics import classification_report, confusion_matrix, f1_score
 from sklearn.feature_extraction.text import TfidfVectorizer
 from xgboost import XGBClassifier
-import nltk
-from nltk.sentiment.vader import SentimentIntensityAnalyzer
+from vaderSentiment.vaderSentiment import SentimentIntensityAnalyzer
 from textblob import TextBlob
 import re
 from collections import Counter
 import warnings
 warnings.filterwarnings('ignore')
 
-nltk.download('vader_lexicon', quiet=True)
 plt.style.use('dark_background')
 
 # ── 1. GENERATE REALISTIC SAMPLE DATA ──────────────────────
@@ -51,7 +55,7 @@ df = pd.DataFrame({
     'review_id':   range(n_real + n_fake),
     'text':        real_reviews + fake_reviews,
     'label':       [0] * n_real + [1] * n_fake,
-    'date':        pd.date_range('2023-01-01', periods=n_real + n_fake, freq='2H'),
+    'date':        pd.date_range('2023-01-01', periods=n_real + n_fake, freq='2h'),
     'business_id': np.random.randint(1, 50, n_real + n_fake),
     'stars':       ([np.random.randint(2, 5) for _ in range(n_real)] +
                     [np.random.choice([1, 5]) for _ in range(n_fake)])
